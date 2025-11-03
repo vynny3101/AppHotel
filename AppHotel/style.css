@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 20px;
+}
+
+main {
+  margin: 30px auto;
+  width: 80%;
+  max-width: 500px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.botao, button {
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao:hover, button:hover {
+  background-color: #023e8a;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+input {
+  padding: 5px;
+  width: 80%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+}

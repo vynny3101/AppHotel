@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Sobre o Aplicativo</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Sobre o Aplicativo</h1>
+  </header>
+
+  <main>
+    <section>
+      <p>Desenvolvido por <strong>Vinícius</strong></p>
+      <p>Ano de desenvolvimento: <strong>2025</strong></p>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Simule sua estadia</h2>
+      <form id="formReserva">
+        <label for="dias">Quantos dias irá ficar:</label><br>
+        <input type="number" id="dias" min="1" required><br><br>
+
+        <label for="adultos">Quantidade de adultos:</label><br>
+        <input type="number" id="adultos" min="1" required><br><br>
+
+        <label for="criancas">Quantidade de crianças:</label><br>
+        <input type="number" id="criancas" min="0" required><br><br>
+
+        <button type="button" onclick="calcular()">Calcular Total</button>
+      </form>
+
+      <p id="resultado"></p>
+    </section>
+
+    <a href="index.html" class="botao">Voltar</a>
+  </main>
+</body>
+</html>
